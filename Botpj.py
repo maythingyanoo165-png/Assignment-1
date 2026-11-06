@@ -353,9 +353,11 @@ def sta() :
                 cortis()
         elif "calculate" in y or "calculation" in y :
             cal ()
+print("Welcome to Arieal Bot!")
+           
 respond=input("You : ").lower()
 if "hi" in respond or "hello" in respond :
-        print("Bot : hello ! I'm Areal Bot.Do yo need my help?")
+        print("Bot : hello ! I'm Arieal Bot.Do yo need my help?")
         n=input("You : ").lower()
         if "stop" in n or "break" in n :
             print("Thanks for using!")
