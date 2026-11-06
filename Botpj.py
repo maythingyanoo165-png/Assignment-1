@@ -360,16 +360,11 @@ if "hi" in respond or "hello" in respond :
         if "stop" in n or "break" in n :
             print("Thanks for using!")
         elif "yes" in n :
-            print("Bot : I can help you calculation.Do you need help?")
-            i=input("You : ").lower()
-            if "yes" in i or "help" in i or "okay" in i:
-                cal()
-                print("Thanks for using!")
-            else :
-                print("Thanks for using!")
+            sta()
+            print("Thanks for using!")
             
 else :
-        sta()
+        cal()
         print("Thanks for using!")
         
         
